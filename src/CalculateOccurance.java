@@ -6,8 +6,8 @@ public class CalculateOccurance {
         List<String> words = new ArrayList<>();
         List<Integer> counts = new ArrayList<>();
 
-        for(String word : list) {
-            if(words.contains(word)) {
+        for (String word : list) {
+            if (words.contains(word)) {
                 int index = words.indexOf(word);
                 counts.add(index, counts.get(index) + 1);
             } else {
@@ -15,7 +15,7 @@ public class CalculateOccurance {
                 counts.add(1);
             }
         }
-        for(int i = 0; i < words.size(); i++) {
+        for (int i = 0; i < words.size(); i++) {
             System.out.println(words.get(i) + " " + counts.get(i));
         }
     }

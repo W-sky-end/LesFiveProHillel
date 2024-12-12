@@ -37,12 +37,3 @@ public class FindOccurances {
     }
 }
 
-
-//    public static void main(String[] args) {
-//        String[] words = {"apple", "banana", "apple", "orange", "banana", "apple"};
-//        List<WordOccurance> result = findOccurances(words);
-//        for (WordOccurance occ : result) {
-//            System.out.println(occ);
-//        }
-//    }
-//}

@@ -9,7 +9,7 @@ public class Main {
         int dogCount = Collection.countOccurance(words, "dog");
         System.out.println("Count of 'dog' is : " + dogCount);
 
-        Integer[] arr =  {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        Integer[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         List<Integer> list = ArrayToList.arrayToList(arr);
         System.out.println("Array to list : " + list);
 
@@ -24,16 +24,15 @@ public class Main {
         System.out.println("Occurances : " + occurances);
 
         PhoneBook phoneBook = new PhoneBook();
-        phoneBook.addRecord(new Record("Bob","030488"));
-        phoneBook.addRecord(new Record("Karl","12345"));
-        phoneBook.addRecord(new Record("Marry","558845"));
-        phoneBook.addRecord(new Record("Bob","048498"));
+        phoneBook.addRecord(new Record("Bob", "030488"));
+        phoneBook.addRecord(new Record("Karl", "12345"));
+        phoneBook.addRecord(new Record("Marry", "558845"));
+        phoneBook.addRecord(new Record("Bob", "048498"));
 
 
         System.out.println("Find Bob " + phoneBook.find("Bob"));
         System.out.println("      ");
         System.out.println("Find all Bobs " + phoneBook.findAll("Bob"));
-
 
 
     }

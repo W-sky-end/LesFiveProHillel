@@ -11,10 +11,4 @@ public class FindUniq {
         }
         return unique;
     }
-    }
-//    public static void main(String[] args) {
-//        List<Integer> numbers = List.of(1, 2, 2, 3, 4, 4, 5);
-//        List<Integer> uniqueNumbers = FindUniq.findUnique(numbers);
-//        System.out.println("Unique Numbers: " + uniqueNumbers);
-//    }
-//}
+}

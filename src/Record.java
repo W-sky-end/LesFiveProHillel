@@ -7,6 +7,7 @@ public class Record {
         this.phone = phone;
 
     }
+
     public String toString() {
         return "Record{name='" + name + "', phone='" + phone + "'}";
     }
